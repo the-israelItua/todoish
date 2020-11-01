@@ -1,0 +1,125 @@
+@media (min-width: 481px) and (max-width: 1024px) {
+  // index page banner styles
+
+  .banner {
+    min-height: 50vh;
+    margin-left: 20rem;
+    .banner-text {
+      font-size: 7rem;
+      max-width: 80vw;
+    }
+    .banner-btn {
+      font-size: 2rem;
+    }
+  }
+
+  .banner-section {
+    min-width: 100vw;
+    margin-top: -18rem;
+    padding: 5rem 15rem 10rem;
+    h2 {
+      font-size: 5rem;
+
+      width: 100vw;
+    }
+  }
+  .app-section {
+    width: fit-content;
+    grid-gap: 8rem;
+    padding: 4rem 3rem;
+
+    .column {
+      width: 25rem;
+      padding: 2rem;
+      p {
+        font-size: 4rem;
+      }
+      .stars {
+        font-size: 2rem;
+      }
+    }
+  }
+  .video-section {
+    padding: 10rem 8rem;
+    .text {
+      width: 60vw;
+      padding: 2rem;
+    }
+  }
+
+  .mission {
+    padding: 1rem 4rem;
+    width: fit-content;
+    .mission-text {
+      width: 70vw;
+      padding: 6rem 3rem;
+      h1 {
+        font-size: 4rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+      a {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .peace {
+    width: fit-content;
+    .peace-text {
+      font-size: 6rem;
+      width: 85vw;
+      padding: 5rem 5rem 0rem 10rem;
+    }
+    .peace-btn {
+      font-size: 3rem;
+      width: fit-content;
+    }
+  }
+
+  .footer {
+    padding: 5rem;
+    width: fit-content;
+    .foot-notes {
+      font-size: 2rem;
+      width: 40rem;
+      p {
+        margin: 1rem 0;
+      }
+    }
+    .col {
+      width: 15rem;
+      p {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .footer-bottom {
+    display: flex;
+    min-width: fit-content;
+    ul {
+      width: 50vw;
+      font-size: 2rem;
+    }
+    h5 {
+      font-size: 2rem;
+      margin-right: 4rem;
+      width: 20vw;
+    }
+    .footer-btn {
+      position: unset;
+      padding: 0.6rem 6rem 0.6rem 0;
+      width: 40vw;
+      font-size: 2rem;
+    }
+  }
+
+  .login-page {
+    .login-form {
+      width: 70vw;
+      height: 100vh;
+    }
+  }
+}

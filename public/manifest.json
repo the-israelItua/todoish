@@ -1,0 +1,6 @@
+{
+  "short_name": "Todo-ish",
+  "name": "Simple todolist for everyone",
+  "start_url": ".",
+  "display": "standalone"
+}
